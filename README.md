@@ -22,7 +22,7 @@ Certifying that the data is clean, and ready for interpretation, I established a
 
 a) Insights and Interpretation:
 Insights drawn will be used to respond to the different preformulated requests below:
-1. KPIs using Card Visuals:
+KPIs using Card Visuals:
    a. Total Ad Spend
 <img width="585" height="216" alt="image" src="https://github.com/user-attachments/assets/98e78133-64f2-43c1-b76e-a232346749a4" />
 
@@ -55,7 +55,7 @@ Attached are the formular and the KPI Card:
 An ROI of 14,000% (or 14.0k%) means that for every 1 unit of currency spent on the campaign, 140 times that amount was earned in revenue. In other words, the campaign generated extremely high returns compared to its cost, indicating it was highly profitable.
 <img width="181" height="115" alt="image" src="https://github.com/user-attachments/assets/03d6ad6a-2e79-413f-8532-def48f71700d" />
 
-2.Visuals:
+Visuals:
 g. Ad Spend by Channel
 <img width="436" height="293" alt="image" src="https://github.com/user-attachments/assets/287f4958-4649-4e53-b3de-faf367d26401" />
 
@@ -64,26 +64,37 @@ h. Clicks vs Impressions
 <img width="1364" height="362" alt="image" src="https://github.com/user-attachments/assets/ba748256-a39b-4e18-a906-7a9edceba7f7" />
 
 Key Findings: The chart shows a consistent trend of impressions being significantly higher than clicks throughout the observed period (November 2024 to January 2025). This is a standard pattern, as impressions represent ad visibility while clicks represent user engagement.
-i.
-Conversion Rate by Category
+i. Conversion Rate by Category
+<img width="431" height="234" alt="image" src="https://github.com/user-attachments/assets/01a10d4f-4784-4b33-afae-d1436b524277" />
+
 Key Findings: The Conversion Rate by Category chart provides a breakdown of how well different product categories are converting. The data shows that the "Household" category has the highest conversion rate at 11.23%. This is a strong performance indicator, showing that a high percentage of visitors who interact with Household-related ads or content are completing a desired action, like a purchase. The strong conversion rate for the "Household" category also indicates a high potential for revenue.
-j.
-Revenue by Product
+j. Revenue by Product
+<img width="438" height="251" alt="image" src="https://github.com/user-attachments/assets/acf3fc02-85fe-4e35-a5a5-ce02434d042a" />
+
 Key Findings: The top-performing products are "Cold Drink," "Dishwasher Liquid," and "Biscuits," each generating a substantial ₹18 million in revenue. These products are the primary revenue drivers for the business. Following closely, "Cooking Oil" and "Garbage Bags" contribute significantly with ₹17 million each. Products such as "Floor Cleaner," "Air Freshener," and "Eggs" also show consistent performance, each bringing in ₹16 million.
-k.
-ROI by Product/Category,
+k. ROI by Product/Category
+<img width="478" height="245" alt="image" src="https://github.com/user-attachments/assets/9c98b5e6-357d-400f-bee6-3c453561574e" />
+
 Key Findings: Air Freshener is the most profitable product with an exceptional return on investment of 24,933.7%. This indicates that for every unit of cost, this product generates a significantly higher profit than any other item. Eggs and Biscuits also perform remarkably well, with ROIs exceeding 19,000%, showcasing their strong profitability. While at the lower end of the listed products, Rice and Juice still demonstrate very healthy returns above 15,000%. The overall finding is that the entire product line presented in the chart is highly profitable, with Air Freshener being the clear standout in terms of efficiency and return on investment.
-l.
-Time-based trends for Spend, Conversions, ROI, and Clicks.
-4.
+l. Time-based trends for Spend, Conversions, ROI, and Clicks.
+<img width="638" height="336" alt="image" src="https://github.com/user-attachments/assets/39a224ed-fb28-41f8-a1bb-10043a266776" />
+<img width="448" height="266" alt="image" src="https://github.com/user-attachments/assets/558f7418-a6f4-437a-9a7d-998ad5063c5e" />
+
+
 Interactivity: Add slicers for Campaign Date, Product Name, Product Category, and Marketing Channel.
-5.
+<img width="1347" height="149" alt="image" src="https://github.com/user-attachments/assets/b6e7f25b-3554-4135-9eee-30a01b24d9ce" />
+
 DAX Measures: Create calculated fields for:
-m.
-CTR (Click through Rate)
-n.
-Conversion Rate
-o.
-ROI (double-check vs dataset ROI).
+m. CTR (Click through Rate)
+<img width="667" height="230" alt="image" src="https://github.com/user-attachments/assets/3e3299cf-d814-4286-a2ac-60c9b97e09e8" />
+<img width="135" height="53" alt="image" src="https://github.com/user-attachments/assets/d3ef6016-4b4d-4ca3-b962-286e6a06c55b" />
+
+n. Conversion Rate
+<img width="134" height="48" alt="image" src="https://github.com/user-attachments/assets/f8b264fa-8d4b-4e42-8550-910417492ce5" />
+<img width="340" height="101" alt="image" src="https://github.com/user-attachments/assets/a01b1a44-4065-41c8-9809-a3bdbf140ea5" />
+
+o. ROI (double-check vs dataset ROI).
+<img width="635" height="332" alt="image" src="https://github.com/user-attachments/assets/1c66cc66-5cc4-4630-ada9-91acfdffd118" />
+
 Interpretation: The table highlights a crucial difference between Overall ROI and Summed ROI in the dataset. Overall ROI, which is calculated as (Total Revenue – Total Spend) ÷ Total Spend, reflects the true profitability of each category because it accounts for the actual weight of spend and revenue in the calculation. For instance, if Beverages generated significant revenue compared to its spending, the Overall ROI correctly captures that efficiency.
 In contrast, Summed ROI simply adds up ROI percentages from each row or transaction. Since ROI is a ratio rather than an absolute value, summing it across rows produces extreme and misleading results, often running into millions of percent. For example, Beverages shows a “Summed ROI” of over 5,000,000%, which dramatically overstates performance compared to the more realistic Overall ROI of about 13,000%.
