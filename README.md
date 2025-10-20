@@ -23,7 +23,7 @@ Certifying that the data is clean, and ready for interpretation, I established a
 a) Insights and Interpretation:
 Insights drawn will be used to respond to the different preformulated requests below:
 1. KPIs using Card Visuals:
-a. Total Ad Spend
+   a. Total Ad Spend
 <img width="585" height="216" alt="image" src="https://github.com/user-attachments/assets/98e78133-64f2-43c1-b76e-a232346749a4" />
 
 A new measure was crafted (see attached above) to create the KPI card to total expenses on advertising. It amounted to 2.21 million (Indian Rupees)
