@@ -28,7 +28,6 @@ Insights drawn will be used to respond to the different preformulated requests b
 
 A new measure was crafted (see attached above) to create the KPI card to total expenses on advertising. It amounted to 2.21 million (Indian Rupees)
 <img width="164" height="96" alt="image" src="https://github.com/user-attachments/assets/8388e54d-dd48-41f8-81c3-e5908142c476" />
-
 b. Impressions: This metric measures the reach of each campaign deployed.
 <img width="166" height="104" alt="image" src="https://github.com/user-attachments/assets/8316bbdb-ef39-42c4-9601-d803aa0ac382" />
 
