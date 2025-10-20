@@ -17,6 +17,7 @@ This stage involves examining the data to identify any issues or errors that may
 The columns also bore the accurate datatype.
 
 DATA INSIGHTS
+
 This stage involves exploring, analysing and visualizing the data to understand patterns and trends which would further help in identify insights and potential variables for building a model. This stage is divided into two phases: Data Exploration & Modelling and Insights and Interpretation.
 a) Data Exploration & Modelling: During data exploration, a date dimension table, dimDate, was created to enable detailed temporal analysis. The model is structured with dimensional tables and a fact table: dimDate includes Date, Year, Month, Quarter, Month Number, Day of the Week, and Week Number; dimProduct captures Product Name and Category; dimChannels records Marketing Channel; and the fact table fMarketing retains key metrics such as Ad Spend, Impressions, Clicks, Conversions, ROI, Revenue, Campaign Date, and CampaignID. This separation of descriptive attributes from quantitative metrics ensures efficient querying and a clear framework for analysis.
 Certifying that the data is clean, and ready for interpretation, I established a connection between the four datasets using Power BI model feature to gain a deeper understanding of relationships and uncover insights.
@@ -24,6 +25,7 @@ Certifying that the data is clean, and ready for interpretation, I established a
 
 a) Insights and Interpretation:
 Insights drawn will be used to respond to the different preformulated requests below:
+
 KPIs using Card Visuals:
    a. Total Ad Spend
 <img width="585" height="216" alt="image" src="https://github.com/user-attachments/assets/98e78133-64f2-43c1-b76e-a232346749a4" />
