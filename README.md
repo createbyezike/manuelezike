@@ -3,13 +3,14 @@ Microsoft PowerBI
 
 For this project, I was responsible for creating an interactive dashboard to track digital marketing campaign performance across Email, Instagram Ads, Influencer Marketing, and other channels. The goal was to provide the marketing team with actionable insights into spend efficiency, engagement, and ROI. This process required three stages:
 
-1.Data Quality Assessment (assess the quality of data and make recommendations to clean the underlying data and mitigate the issues causing unclean data).
+1. Data Quality Assessment (assess the quality of data and make recommendations to clean the underlying data and mitigate the issues causing unclean data).
 
-2.Data Insights (clean and explore the data, develop the model that can be used to target potential profitable customers and generate insights).
+2. Data Insights (clean and explore the data, develop the model that can be used to target potential profitable customers and generate insights).
 
-3.Data Presentation (develop an interactive dashboard to display data summary and results of the analysis).
+3. Data Presentation (develop an interactive dashboard to display data summary and results of the analysis).
 
 DATA QUALITY ASSESSMENT
+
 This stage involves examining the data to identify any issues or errors that may affect its usability for analysis and insight extraction. The better the quality of the dataset, the higher the utility to be derived for insight and robust decision making. For this purpose, one dataset was provided. This dataset with one table ‘marketing’ has 11 columns. A quality check validated all columns at 100%; zero errors and zero empty cells.
 <img width="689" height="149" alt="image" src="https://github.com/user-attachments/assets/fb3d6353-cc19-4b93-a0e9-587b9f49ff70" />
 <img width="810" height="259" alt="image" src="https://github.com/user-attachments/assets/c26d93ad-971a-484d-bb5f-fe93d348e543" />
