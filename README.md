@@ -3,21 +3,25 @@ Microsoft PowerBI
 For this project, I was responsible for creating an interactive dashboard to track digital marketing campaign performance across Email, Instagram Ads, Influencer Marketing, and other channels. The goal was to provide the marketing team with actionable insights into spend efficiency, engagement, and ROI. This process required three stages:
 
 1.Data Quality Assessment (assess the quality of data and make recommendations to clean the underlying data and mitigate the issues causing unclean data).
+
 2.Data Insights (clean and explore the data, develop the model that can be used to target potential profitable customers and generate insights).
+
 3.Data Presentation (develop an interactive dashboard to display data summary and results of the analysis).
+
 DATA QUALITY ASSESSMENT
 This stage involves examining the data to identify any issues or errors that may affect its usability for analysis and insight extraction. The better the quality of the dataset, the higher the utility to be derived for insight and robust decision making. For this purpose, one dataset was provided. This dataset with one table ‘marketing’ has 11 columns. A quality check validated all columns at 100%; zero errors and zero empty cells.
 <img width="689" height="149" alt="image" src="https://github.com/user-attachments/assets/fb3d6353-cc19-4b93-a0e9-587b9f49ff70" />
 <img width="810" height="259" alt="image" src="https://github.com/user-attachments/assets/c26d93ad-971a-484d-bb5f-fe93d348e543" />
 The columns also bore the accurate datatype.
+
 DATA INSIGHTS
 This stage involves exploring, analysing and visualizing the data to understand patterns and trends which would further help in identify insights and potential variables for building a model. This stage is divided into two phases: Data Exploration & Modelling and Insights and Interpretation.
-a)
-Data Exploration & Modelling:
+a) Data Exploration & Modelling:
 During data exploration, a date dimension table, dimDate, was created to enable detailed temporal analysis. The model is structured with dimensional tables and a fact table: dimDate includes Date, Year, Month, Quarter, Month Number, Day of the Week, and Week Number; dimProduct captures Product Name and Category; dimChannels records Marketing Channel; and the fact table fMarketing retains key metrics such as Ad Spend, Impressions, Clicks, Conversions, ROI, Revenue, Campaign Date, and CampaignID. This separation of descriptive attributes from quantitative metrics ensures efficient querying and a clear framework for analysis.
 Certifying that the data is clean, and ready for interpretation, I established a connection between the four datasets using Power BI model feature to gain a deeper understanding of relationships and uncover insights.
-a)
-Insights and Interpretation:
+<img width="1063" height="488" alt="image" src="https://github.com/user-attachments/assets/b49c5b3d-c0ee-4fb3-a061-60b6108cac83" />
+
+a) Insights and Interpretation:
 Insights drawn will be used to respond to the different preformulated requests below:
 1.
 KPIs using Card Visuals:
